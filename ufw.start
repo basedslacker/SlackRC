@@ -1,0 +1,3 @@
+if [ -x /lib/ufw/ufw-init ]; then
+  /lib/ufw/ufw-init start
+fi
