@@ -5,7 +5,7 @@
 case "$(ps -p 1 -o comm=)" in
 	openrc-init)
 		SHUTDOWN_CMD=openrc-shutdown
-		SHUTDOWN_CMD_ARGS='-h now'
+		SHUTDOWN_CMD_ARGS='-p now'
 	;;
 	runit)
 		SHUTDOWN_CMD=runit-init
